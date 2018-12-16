@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Kitty",
+    "image" : "cat",
+	"price": "1"
+  },
+  {
+    "name": "Pupster",
+    "image" : "dog",
+	"price": "1"
+  },
+  {
+    "name": "Tux",
+    "image" : "cat",
+	"price": "1"
+  }
+]
