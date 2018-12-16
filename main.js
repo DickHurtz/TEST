@@ -1,4 +1,4 @@
-var Test = document.getElementById("test");
+var test = document.getElementById("test");
 var ourRequest = new XMLHttpRequest();
 ourRequest.open('GET', 'data.json');
 ourRequest.onload = function(){
@@ -10,5 +10,5 @@ ourRequest.send();
 
 function renderHTML(data){
 	var htmlString = "testtest";
-	Test.insertAdjacentHTML('beforeend',htmlString);
+	test.insertAdjacentHTML('beforeend', htmlString);
 }
