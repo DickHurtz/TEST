@@ -1,17 +1,74 @@
 [
   {
-    "name": "Kitty",
-    "image" : "cat",
-	"price": "1"
+    "name": "Bullet 4 ur valentine",
+    "image" : "your_first_boner.jpg",
+	"price": "3500",
+	"owned": "1"
   },
   {
-    "name": "Pupster",
-    "image" : "dog",
-	"price": "1"
+    "name": "Boom stick",
+    "image" : "your_first_boner.jpg",
+	"price": "500",
+	"owned": "0"
   },
   {
-    "name": "Tux",
-    "image" : "cat",
-	"price": "1"
+    "name": "Emperor's will",
+    "image" : "your_first_boner.jpg",
+	"price": "5000",
+	"owned": "0"
+  },
+  {
+    "name": "Putin",
+    "image" : "your_first_boner.jpg",
+	"price": "3501",
+	"owned": "0"
+  },
+  {
+    "name": "Boom stick",
+    "image" : "http://necaonline.com/wp-content/uploads/2013/05/45059-GravityGun-6.jpg",
+	"price": "500",
+	"owned": "0"
+  },
+  {
+    "name": "Emperor's will",
+    "image" : "bolter.jpg",
+	"price": "5000",
+	"owned": "0"
+  },
+  {
+    "name": "Putin",
+    "image" : "nuka.jpg",
+	"price": "3501",
+	"owned": "0"
+  },
+  {
+    "name": "Boom stick",
+    "image" : "http://www.podarkoff.ru/pics/2/0/8/9/1/1/i/000323762_000330158_sizus100.jpg",
+	"price": "500",
+	"owned": "0"
+  },
+  {
+    "name": "Emperor's will",
+    "image" : "https://i.etsystatic.com/14987177/r/il/c5b22f/1357490419/il_570xN.1357490419_6vdh.jpg",
+	"price": "5000",
+	"owned": "0"
+  },
+  {
+    "name": "Keeper of the law",
+    "image" : "http://www.papercraftsquare.com/wp-content/uploads/2015/12/Quake-III-Arena-Rocket-Launcher-Paper-Model.jpg",
+	"price": "3501",
+	"owned": "0"
+  },
+  {
+    "name": "Putin",
+    "image" : "your_first_boner.jpg",
+	"price": "3501",
+	"owned": "0"
+  },
+  {
+    "name": "Putin",
+    "image" : "your_first_boner.jpg",
+	"price": "3501",
+	"owned": "0"
   }
 ]
