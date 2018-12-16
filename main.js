@@ -2,13 +2,12 @@ var test = document.getElementById("test");
 var btn = document.getElementById("clickme");
 
 btn.addEventListener("click", function(){
-	console.log("opa!");
 	var ourRequest = new XMLHttpRequest();
 	ourRequest.open('GET', 'data.json');
 	ourRequest.onload = function(){
-	var ourData = JSON.parse(ourRequest.responseText);
-	console.log(ourData);
-	renderHTML(ourData);
+		var ourData = JSON.parse(ourRequest.responseText);
+		renderHTML(ourData);
+		console.log(ourData);
 	};
 	ourRequest.send();
 });
