@@ -1,4 +1,7 @@
 var test = document.getElementById("test");
+var btn = document.getElementById("clickme");
+
+btn.addEventListener("click", function(){
 var ourRequest = new XMLHttpRequest();
 ourRequest.open('GET', 'data.json');
 ourRequest.onload = function(){
@@ -7,6 +10,7 @@ ourRequest.onload = function(){
 	renderHTML(ourData);
 }
 ourRequest.send();
+});
 
 function renderHTML(data){
 	var htmlString = "testtest";
