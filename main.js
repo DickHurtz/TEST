@@ -1,5 +1,5 @@
 var test = document.getElementById("test");
-var btn = document.getElementById("clickme");
+var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function(){
 	var ourRequest = new XMLHttpRequest();
