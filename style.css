@@ -14,27 +14,79 @@ body{
 #container{
 	display: inline-block;
 	font-size: 0;
-	width: 80%;
+	width: 75%;
 }
 .side{
 	display: inline-block;
-	width: 20%;
+    width: calc(25% - 10px);
+    font-size: initial;
+    margin-left: 10px;
+    padding-top: 20px;
+    text-align: right;
+}
+.summary{
+	width: 100%;
+    padding: 10px;
+    border: 0;
+    background: rgba(20, 180, 20, 0.8);
+    color: #fff;
+	transition: 0.3s;
+    font-weight: bold;
+}
+.summary:hover{
+	transition: 0.3s;
+	background: rgba(20, 180, 20, 1);
 }
 #cash{
-	font-size: 14px;
+	font-size: 24px;
+	display: inline-block;
+}
+.owned{
+	margin: 20px 0;
+    display: inline-block;
+    width: 100%;
+	font-size: 12px;
+	height: 160px;
+    overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid #999;
+}
+.owned img{
+	width: 100%;
+    height: auto;
+	height: 160px; /*IT'S VALUE I USED ONLY FOR TEST, INITIALY IT MUST BE AUTO*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+	z-index: 1;
+}
+.owned p{
+	float: right;
+	margin: 0;
 }
 .cart{
-	background: #ccc;
-	font-size: initial;
-	padding: 10px;
+	text-align: left;
+    background: #666;
+    font-size: initial;
+    padding: 10px;
+    color: #fff;
 }
 .cart h3{
 	margin: 0;
 }
+.owned h3{
+	line-height: 26px;
+	position: absolute;
+    left: 0;
+    right: 0;
+	background: #666;
+	z-index: 2;
+}
 .content{
 	margin: 0 10px;
 	position: relative;
-	height: 140px;
+	height: 160px;
 	overflow: hidden;
 }
 .box {
@@ -46,12 +98,22 @@ body{
 }
 .box img{
 	width: 100%;
-    height: auto;
+	height: auto;
+    height: 160px; /*IT'S VALUE I USED ONLY FOR TEST, INITIALY IT MUST BE AUTO*/
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
     z-index: 1;
+}
+.new > span{
+	padding: 10px;
+    background: #EFDF3F;
+    z-index: 3;
+	transition: 0.3s;
+	position: absolute;
+	bottom: 0;
+	color: #000;
 }
 .box h3{
 	position:absolute;
@@ -63,13 +125,15 @@ body{
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	z-index: 3;
+	line-height: 26px;
+	transition: 0.3s;
 }
 .price{
 	margin: 0;
     position: absolute;
     left: 0;
     right: 0;
-    text-align: center;
+    text-align: right;
     bottom: 0;
 	padding: 10px;
 	background: rgba(50, 50, 50, 1);
@@ -77,14 +141,78 @@ body{
 .exp{
 	background:rgba(240, 0, 0, 1);
 }
-.exp, .price{
-	opacity: 0.5;
+.in_cart{
+	background: rgba(20, 180, 20, 1);
+}
+p.yours2go{
+	background: rgba(180, 180, 180, 1);
+	color: #000;
+	pointer-events: none;
+}
+.exp, .price, .in_cart{
 	transition: 0.3s;
+	opacity: 0.7;
 	z-index: 2;
 	color: #fff;
 }
 .price:hover, .box h3:hover{
 	opacity: 1;
 	cursor: pointer;
+	transition: 0.3s;
+}
+.price > span, #cash + span, .owned h3 > p > span{
+	background: url(bitcoin.png) no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0;
+    width: 16px;
+	pointer-events: none;
+}
+.carier{
+	overflow: hidden;
+    display: block;
+    height: inherit;
+    width: 100%;
+}
+.cancel {
+	position: absolute;
+	right: 5px;
+    bottom: 5px;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 0;
+    margin: -15px 0 0 -15px;
+    cursor: pointer;
+    z-index: 3;
+}
+.mark {
+	background-color: #000;
+	position: absolute;
+	height: 16px;
+	width: 2px;
+	display: block;
+	top: 0;
+}
+.mark.x  { 
+  right: 7px; 
+  transform:rotate(45deg); 
+}
+.mark.xx { 
+  left: 7px; 
+  transform:rotate(-45deg); 
+}
+.content:hover{
+	overflow:initial;
+}
+.content:hover > .carier{
+	overflow: hidden;
+}
+.content:hover h3{
+	transform: translateY(-100%);
+	transition: 0.3s;
+}
+.content:hover .price,.new.content:hover > span{
+	transform: translateY(100%);
 	transition: 0.3s;
 }

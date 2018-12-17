@@ -1,74 +1,74 @@
 [
   {
     "name": "Bullet 4 ur valentine",
-    "image" : "your_first_boner.jpg",
+    "image" : "your_first_game_boner.jpg",
 	"price": "3500",
-	"owned": "1"
+	"fresh": "1"
   },
   {
-    "name": "Boom stick",
-    "image" : "your_first_boner.jpg",
-	"price": "500",
-	"owned": "0"
-  },
-  {
-    "name": "Emperor's will",
-    "image" : "your_first_boner.jpg",
-	"price": "5000",
-	"owned": "0"
-  },
-  {
-    "name": "Putin",
-    "image" : "your_first_boner.jpg",
+    "name": "Weird rainbow gun",
+    "image" : "https://c1.staticflickr.com/7/6062/6054416461_77695ab41f_b.jpg",
 	"price": "3501",
-	"owned": "0"
+	"fresh": "0"
   },
   {
-    "name": "Boom stick",
+    "name": "Grav stick",
     "image" : "http://necaonline.com/wp-content/uploads/2013/05/45059-GravityGun-6.jpg",
-	"price": "500",
-	"owned": "0"
+	"price": "502",
+	"fresh": "1"
   },
   {
     "name": "Emperor's will",
     "image" : "bolter.jpg",
 	"price": "5000",
-	"owned": "0"
+	"fresh": "0"
+  },
+  {
+    "name": "Not_a_gun gun",
+    "image" : "https://pbs.twimg.com/media/CDtDT4kW0AAGFTH.jpg",
+	"price": "500",
+	"fresh": "0"
   },
   {
     "name": "Putin",
     "image" : "nuka.jpg",
 	"price": "3501",
-	"owned": "0"
+	"fresh": "1"
+  },
+  {
+    "name": "Da whey gun",
+    "image" : "https://i.ytimg.com/vi/L-3c6d0EYMA/maxresdefault.jpg",
+	"price": "350",
+	"fresh": "0"
   },
   {
     "name": "Boom stick",
     "image" : "http://www.podarkoff.ru/pics/2/0/8/9/1/1/i/000323762_000330158_sizus100.jpg",
-	"price": "500",
-	"owned": "0"
+	"price": "400",
+	"fresh": "0"
   },
   {
-    "name": "Emperor's will",
+    "name": "Boom stick",
     "image" : "https://i.etsystatic.com/14987177/r/il/c5b22f/1357490419/il_570xN.1357490419_6vdh.jpg",
 	"price": "5000",
-	"owned": "0"
+	"fresh": "0"
   },
   {
     "name": "Keeper of the law",
     "image" : "http://www.papercraftsquare.com/wp-content/uploads/2015/12/Quake-III-Arena-Rocket-Launcher-Paper-Model.jpg",
-	"price": "3501",
-	"owned": "0"
+	"price": "201",
+	"fresh": "0"
   },
   {
-    "name": "Putin",
-    "image" : "your_first_boner.jpg",
+    "name": "OP gun in CODMW2",
+    "image" : "https://vignette.wikia.nocookie.net/callofduty/images/7/7e/ACR_3rd_person_MW2.PNG/revision/latest?cb=20120418113221&path-prefix=ru",
 	"price": "3501",
-	"owned": "0"
+	"fresh": "0"
   },
   {
-    "name": "Putin",
-    "image" : "your_first_boner.jpg",
+    "name": "USA Shoota",
+    "image" : "https://vignette.wikia.nocookie.net/callofduty/images/c/c4/M16A4.png/revision/latest?cb=20100812094218&path-prefix=ru",
 	"price": "3501",
-	"owned": "0"
+	"fresh": "0"
   }
 ]
